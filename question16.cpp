@@ -16,7 +16,7 @@ public:
             int rem = sum%k;
             
             if(rem < 0) {
-                rem += k;
+                rem += k;  //rem agar negative h to usme plus k
             }
             
             if(mp.find(rem) != mp.end()) {
